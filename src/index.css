@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  display: flex;
+
+  align-items: center;
+}
+.logo{
+  width: 20%;
+  height: auto;
+  margin-left: 50px;
+  /* float: left; */
+  /* background-color: rebeccapurple; */
+
+}
+.logo h1{
+  font-size: 22px;
+  font-weight: bolder;
+  color: black;
+  font-family: cursive;
+
+}
+.createnote{
+  margin-top: 20px !important;
+  width: 30%;
+  margin: 0 auto;
+  /* background-color: red;  */
+  padding: 20px;
+  border-radius:5px ;
+  box-shadow: 0px 0px 23px -12px #888888;
+
+}
+.createnote input{
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  outline: none;
+}
+.createnote textarea{
+  border: none;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline: none;
+
+}
+.createnote button{
+  border: none;
+ width: 35px;
+ height: 35px;
+ background-color: yellow;
+ /* color: white; */
+ font-size: 22px;
+ font-weight: bolder;
+ border-radius: 50%;
+ float: right;
+ margin-top: 20px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+
+}
+.title{
+  
+  margin-top: 20px !important;
+  width: 20%;
+  /* margin: 0 auto; */
+  /* background-color: red;  */
+  padding: 20px;
+  margin-left: 30px;
+  
+  border-radius:5px ;
+  box-shadow: 0px 0px 23px -12px #888888;
+}
+.title button{
+  border: none;
+  width: 35px;
+  height: 35px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  border-radius: 50%;
+  float: right;
+  /* margin-top: 20px; */
+
+}
